@@ -1,6 +1,6 @@
 ---- LINE: 3000+
 ---- LAST EDITED
-
+setclipboard("https://discord.gg/jYkbeWtYsf")
 print("Apex OT executed! expect 2s to load fully.")
 print("Detecting the game...")
 print("Game Detected! [ BROOKHAVEN RP ]")
@@ -155,12 +155,12 @@ local redzlib = loadstring(game:HttpGet("https://raw.githubusercontent.com/takgo
 
 local Window = redzlib:MakeWindow({
     Title = "APEX OT | BROOKHAVEN RP",
-    SubTitle = "by Kai and Apex Team ",
+    SubTitle = "by Takgoo and Apex Team ",
     SaveFolder = ""
   })
 
   Window:AddMinimizeButton({
-    Button = { Image = "rbxassetid://73830511104990", BackgroundTransparency = 0 },
+    Button = { Image = "", BackgroundTransparency = 0 },
     Corner = { CornerRadius = UDim.new(35, 1) },
 })
 
@@ -218,13 +218,13 @@ Tab1:AddDiscordInvite({
 		print("discord invite copied successfully.")
 })
 
-Tab1:AddSection({"KAI TEAM"})
+Tab1:AddSection({"LIQUID"})
 
 Tab1:AddDiscordInvite({
-    Name = "KAI HUB | COMMUNITY",
+    Name = "LIQUID HUB | COMMUNITY",
     Description = "Join to Kai Hub Community!",
     Logo = "",
-    Invite = "https://discord.gg/wDMPK3QAmY",
+    Invite = "https://discord.gg/jYkbeWtYsf",
 		print("discord invite copied successfully.")
 })
   
@@ -477,7 +477,7 @@ end
 Tab2:AddTextBox({
     Name = "Player Name",
     Description = "",
-    PlaceholderText = "ex: yourname123",
+    PlaceholderText = "ex: Roblox",
     Callback = function(Value)
         local foundPlayer = findPlayerByPartialName(Value)
         if foundPlayer then
