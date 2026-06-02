@@ -14,11 +14,11 @@ local Window = WindUI:CreateWindow({
     Theme = "Dark", -- library theme
     Resizable = true, -- the ability to rezize window
     SideBarWidth = 200, -- sidebar (tabs) width
-    HideSearchBar = true, -- hide search bar
-    ScrollBarEnabled = false, -- scrollbars that are located to the right of the scroll frame
+    HideSearchBar = false, -- hide search bar
+    ScrollBarEnabled = true, -- scrollbars that are located to the right of the scroll frame
  
     BackgroundImageTransparency = 0.42, -- background image transparency
-    Background = "rbxassetid://1234", -- rbxassetid
+    Background = "", -- rbxassetid
     
     User = { -- user information located at the bottom left
         Enabled = true, -- can be toggled with Window.User:Enable() or Window.User:Disable()
