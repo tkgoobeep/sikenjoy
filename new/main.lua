@@ -29,10 +29,7 @@ local Window = WindUI:CreateWindow({
     },
     
     KeySystem = { -- key system from this library
-        --  ↓ DEPRECATED
-        -- Key = { "1234", "5678" },
- 
-        -- ✓ use this instead:
+        
         KeyValidator = function(enteredKey)
             if enteredKey == "1234" then
                 return true -- this means the key is correct
