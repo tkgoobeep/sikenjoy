@@ -48,3 +48,16 @@ local Window = WindUI:CreateWindow({
         SaveKey = true, -- automatically save and load the key.
     },
 })
+
+
+local Tab = Window:Tab({
+    Title = "Main",
+    --Desc = "Tab description", -- optional
+    Icon = "house", -- lucide icon or "rbxassetid://" or URL. optional
+    IconColor = Color3.fromRGB(255, 100, 100), -- custom icon color. optional
+    IconShape = "Square", -- "Square" or "Circle". optional
+    IconThemed = true, -- use theme colors. optional
+    Locked = false, -- disable tab interaction. optional
+    ShowTabTitle = true, -- show title inside tab. optional
+    Border = true, -- add border around tab. optional
+})
